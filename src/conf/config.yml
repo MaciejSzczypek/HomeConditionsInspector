@@ -1,0 +1,22 @@
+aws:
+  s3:
+    aws_access_key_id: '#PLACEHOLDER'
+    aws_secret_access_key: '#PLACEHOLDER'
+    bucket: '#PLACEHOLDER'
+    push_file_every_n_seconds: 0
+    push_file_automatically: false
+lcd:
+  refresh_every_n_seconds: 0
+  i2c_expander: 'PCF8574'
+  address: 0x27
+  port: 1
+  cols: 16
+  rows: 2
+  backlight_enabled: true
+sensors:
+  dht:
+    read_every_n_seconds: 0
+logs:
+  log_file_path: '/tmp/conditions.csv'
+  log_every_n_seconds: 0
+
